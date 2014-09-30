@@ -29,5 +29,6 @@
         "start": "node --harmony server/serve",
         "start-devel": "supervisor --harmony --watch server server/serve",
         "test": "mocha --harmony --reporter spec server/test/*.js"
-    }
+    },
+    "engine": "node >= 0.11"
 }
