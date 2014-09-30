@@ -1,5 +1,6 @@
 "use strict";
 
+
 var resolve = require('path').resolve,
     fs = require('fs');
 

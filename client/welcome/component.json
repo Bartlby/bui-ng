@@ -2,7 +2,10 @@
     "name": "welcome",
     "dependencies": {
         "component/domify": "*",
-        "component/reactive": "*"
+        "component/reactive": "*",
+        "ivaynberg/select2": "*",
+        "godmodelabs/spinner": "*",
+        "ramitos/carousel": "*"
     },
     "scripts": [
         "welcome.js"

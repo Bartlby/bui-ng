@@ -1,10 +1,11 @@
 "use strict";
 
 var domify = require('domify'),
-    template = require('./about.html');
+template = require('./about.html');
 
 module.exports = About;
 
 function About() {
     this.el = domify(template);
+    console.log("ABOUT READY");
 }

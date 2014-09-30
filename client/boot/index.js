@@ -1,7 +1,8 @@
 "use strict";
 
-var page = require('page'),
+var page = require('page'), 
     Welcome = require('welcome');
+
 
 // Add the layout
 var appContainer = document.querySelector('#app');
