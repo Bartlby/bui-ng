@@ -6,7 +6,9 @@
         "menus.css",
 	"tables.css",
 	"buttons.css",
-	"forms.css"
+	"forms.css",
+	"bootstrap3.css"
+
 
     ]
 }
