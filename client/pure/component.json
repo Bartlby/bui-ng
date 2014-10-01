@@ -3,6 +3,10 @@
     "styles": [
         "base.css",
         "grids.css",
-        "menus.css"
+        "menus.css",
+	"tables.css",
+	"buttons.css",
+	"forms.css"
+
     ]
 }
