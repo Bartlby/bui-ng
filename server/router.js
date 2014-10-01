@@ -15,6 +15,8 @@ var jsonTest = function *() {
 
 var coreInfo = function *() {
 	this.body=bartlby.getInfo();
+	this.body.plugin = this.request.query.plugin; 
+	console.log(this.request.query);
 }
 
 
