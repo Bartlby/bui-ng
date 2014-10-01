@@ -2,6 +2,7 @@
     "name": "boot",
     "dependencies": {
         "visionmedia/page.js": "*"
+	
     },
     "locals": [
         "pure",

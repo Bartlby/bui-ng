@@ -1,7 +1,8 @@
 "use strict";
 
 var request = require("request");
-
+var bartlby_extension = require("bartlby");
+var bartlby = new bartlby_extension.Instance("/opt/bartlby/etc/bartlby.cfg");
 var app = require('./app'),
 r = require('koa-route');
 
@@ -12,15 +13,10 @@ var jsonTest = function *() {
     };
 };
 
-var loadServers = function *() {
-	this.type = 'html';
-	var stream = this;
-	request('http://www.google.com', function (error, response, body) {
-		stream.response.body=body;
-		console.log(stream.response);
-	});
-
+var coreInfo = function *() {
+	this.body=bartlby.getInfo();
 }
 
+
 app.use(r.get('/api/test', jsonTest));
-app.use(r.get('/api/servers', loadServers));
+app.use(r.get('/api/coreinfo', coreInfo));
