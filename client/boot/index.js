@@ -1,7 +1,8 @@
 "use strict";
 
-var page = require('page'), 
-    Welcome = require('welcome');
+window.$ = require("jquery"); //JQUERY FOR ALL
+var page = require('page');
+var Welcome = require('welcome');
 
 
 // Add the layout

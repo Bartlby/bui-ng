@@ -1,7 +1,8 @@
 {
     "name": "boot",
     "dependencies": {
-        "visionmedia/page.js": "*"
+        "visionmedia/page.js": "*",
+        "components/jquery": "*"
 	
     },
     "locals": [
